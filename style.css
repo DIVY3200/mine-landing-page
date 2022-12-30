@@ -1,0 +1,99 @@
+body{
+    background-color: #EAF6F6;
+}
+.rounding{
+    border-radius: 0%;
+    width: 180px;
+    height: 300px;
+}
+.image{
+    width: 350px;
+    text-overflow: black;
+    padding: 25%;
+    filter: drop-shadow(7px 3px 15px #e3f543);
+}
+h1{
+    color: rgba(48, 9, 155);
+    text-shadow: rgb(173, 185, 6) 0.1em 0.1em 0.2em
+}
+h2 {color: rgb(21, 20, 22); text-shadow: rgb(247, 13, 13) 0.1em 0.1em 0.2em}
+.styled {
+    border: 10;
+    /* line-height: 2.5; */
+    height: 150px;
+    width:500px;
+    padding: 20px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(184, 65, 65);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(5, 62, 252, 0.6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.name{
+    color: #000;
+    text-shadow: rgb(247, 13, 13) 0.1em 0.1em 0.2em;
+    font-size: 280%;
+}
+.bio{
+    color: rgba(48, 9, 155);
+    text-shadow: rgb(173, 185, 6) 0.1em 0.1em 0.2em
+}
+.name1{
+    color: #000;
+    text-shadow: rgb(247, 13, 13) 0.1em 0.1em 0.2em;
+    font-size: 350%;
+}
+hr{
+    background-color: black;
+    border-style: dotted none none;
+    border-width: 5px;
+    height:2px;
+    width:100%
+}
+.whatsapp{
+    width: 50px;
+    filter: drop-shadow(5px 5px 5px #058d0c);
+    border-radius: 1px;
+}
+.insta{
+    width: 50px;
+    filter: drop-shadow(5px 5px 5px #d80c0c);
+    border-radius: 10px;
+}
+.fb{
+    width: 50px;
+    filter: drop-shadow(5px 5px 5px #0e1688);
+    border-radius: 5px;
+}
+.lkd{
+    width: 50px;
+    filter: drop-shadow(5px 5px 5px #30abf1);
+}
+.vid{
+    filter: drop-shadow(10px 10px 25px #f13312);
+}
+.vid1{
+    filter: drop-shadow(7px 3px 15px #e3f543);
+}
+.image1{
+    width: 350px;
+    text-overflow: black;
+    padding: 25%;
+    filter: drop-shadow(17px 3px 15px #f13312);
+}
